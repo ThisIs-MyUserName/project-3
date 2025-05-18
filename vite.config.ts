@@ -10,7 +10,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://project-3-thisis-myusername-zaids-projects-9a3247fa.vercel.app/',
         changeOrigin: true,
       },
     },

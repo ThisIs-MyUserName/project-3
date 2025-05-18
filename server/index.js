@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGODB_URI = 'mongodb+srv://eaamanullah:pnEO2Fvp9pklFf3g@mycluster.vwdnp7b.mongodb.net/';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://eaamanullah:pnEO2Fvp9pklFf3g@mycluster.vwdnp7b.mongodb.net/'
 const DB_NAME = 'video_app';
 const COLLECTION_NAME = 'user_locations';
 
